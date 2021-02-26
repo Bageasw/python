@@ -1,5 +1,15 @@
-import  sys
-nums = []
-for num in range(1, 10 ** 6+1, 2):
-    nums.append(num ** 2)
-print(type(nums), sys.getsizeof(nums))
+
+def odd_nums(n):
+    for i in range(1, n + 1, 2):
+
+        yield i
+odd = odd_nums(15)
+
+print(next(odd))
+print(next(odd))
+print(next(odd))
+print(next(odd))
+print(next(odd))
+print(next(odd))
+print(next(odd))
+print(next(odd))
