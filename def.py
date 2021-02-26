@@ -5,5 +5,5 @@ def num_translate():
     k = input("ввидите слово: ")
     print(dic.get(k))
 
-num_translate()
+num_translate(1)
 
