@@ -13,5 +13,3 @@ def currency_rates(code):
         if code.upper() in i:
             return (float(i.replace("/", "").split("<Value>")[-2].replace(",", ".")))
 
-print(currency_rates("usd"))
-print(currency_rates("aud"))
