@@ -3,15 +3,8 @@ def odd_nums(n):
     for i in range(1, n + 1, 2):
 
         yield i
-odd = odd_nums(15)
+for i in odd_nums(15):
+    print(i)
 
-# while j == 0:
-   # print(next(odd))
-# print(next(odd))
-# print(next(odd))
-# print(next(odd))
-# print(next(odd))
-# print(next(odd))
-# print(next(odd))
-# print(next(odd))
-# print(next(odd))
+n = int(input())
+print(*[i for i in range(1, n + 1, 2)])
