@@ -12,5 +12,5 @@ matrix_sum = (i for i in zip_longest(matrix_1, matrix_2))
 
 
 print(type(matrix_sum))
-print(*islice(matrix_sum, 9))
+print(*islice(matrix_sum, 8))
 print(list(islice(matrix_sum, 3)))
